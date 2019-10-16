@@ -1,6 +1,5 @@
 #### CODE for MEASURING SEISMIC TRAVEL-TIME CHANGES with the WAVELET METHOD
-#### Contact: Shujuan Mao (maos@mit.edu)
-####          Aurélien Mordret (aurelien.mordret@univ-grenoble-alpes.fr)
+#### Contact: Shujuan Mao (maos@mit.edu) and Aurélien Mordret (aurelien.mordret@univ-grenoble-alpes.fr)
 
 This package contains codes and test data for measuring seismic travel-time shifts in the time-frequency domain using the wavelet cross-spectrum analysis. 
 
