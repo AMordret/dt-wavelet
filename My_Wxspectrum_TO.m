@@ -20,7 +20,7 @@ function varargout= My_Wxspectrum_TO(x,y,fs,wname,WaveletParameters,...
 %   is faster compared with the Usage1 when the SmoothingFlag is truned off.
 %
 %% Input
-%    x,y: Two vectors, current and reference time series.
+%    x,y: Two vectors, reference and current time series.
 %    fs: Positive scalar, sampling frequency
 %    wname: The type of the wavelet. Avalible options include 
 %           1) 'amor' for Morlet wavelet; 2) 'morse' for Morse wavelet; 
@@ -61,13 +61,13 @@ function varargout= My_Wxspectrum_TO(x,y,fs,wname,WaveletParameters,...
 %
 %
 %% EXAMPLE:
-%    [WXspec,WXdt,WXamp,Wcoher,Freq,Coi]= My_Wxspectrum(current,reference, ...
+%    [WXspec,WXdt,WXamp,Wcoher,Freq,Coi]= My_Wxspectrum(reference,current, ...
 %                                          50,'amor',[],[0.5,5],1,3,0.25,10,1)
 %  OR
-%    [WXspec,WXdt,WXamp,Freq,Coi]= My_Wxspectrum(current,reference, ...
+%    [WXspec,WXdt,WXamp,Freq,Coi]= My_Wxspectrum(reference,current, ...
 %                                          50,'amor',[],[0.5,5],1,3,0.25,10,1)
 %
-%%    Authors: Shujuan Mao (maos@mit.edu) and Aurélien Mordret (mordret@mit.edu)
+%%    Authors: Shujuan Mao (maos@mit.edu) and AurÃ©lien Mordret (mordret@mit.edu)
 %     Created: Aug., 2018
 %     Updated: Jul., 2019
 %
@@ -79,7 +79,7 @@ function varargout= My_Wxspectrum_TO(x,y,fs,wname,WaveletParameters,...
 %           GJI, In Review.
 %
 %%
-%%    Copyright (c) 2019, Shujuan Mao and Aurélien Mordret, covered by MIT License.
+%%    Copyright (c) 2019, Shujuan Mao and AurÃ©lien Mordret, covered by MIT License.
 %
 %     Permission is hereby granted, free of charge, to any person obtaining a copy
 %     of this software and associated documentation files (the "Software"), to deal
